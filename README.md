@@ -17,10 +17,36 @@
 
 ## Установка
 
-```bash
+```
 pip install -r requirements.txt
+```
 
 ## Запуск
 
+```
 python make_test_data.py
+```
+```
 python merge_sales.py
+```
+
+
+## Результат
+
+Файл `Итог_Q1.xlsx` с тремя листами:
+
+1. **Все продажи** — объединённые данные из всех файлов.
+2. **Сводка по товарам** — сумма, количество и средняя цена по каждому товару.
+3. **Топ-10** — 10 самых продаваемых товаров по сумме.
+
+## Используемые технологии
+
+- Python 3.11+
+- pandas
+- openpyxl
+
+## Контакты
+
+- Telegram: @sleepwoka
+- Email: individual.code@gmail.com
+- GitHub: @individual-code
